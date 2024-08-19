@@ -1,0 +1,16 @@
+.bg-image {
+  background-size: cover;
+  background-image: url(scoreboard-hero.webp);
+  background-position: center;
+}
+
+.hero {
+  min-height: 50vh;
+  ;
+}
+
+.scores {
+  align-items: center;
+  justify-content: space-around;
+
+}
