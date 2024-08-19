@@ -1,6 +1,7 @@
 let HomeScore = 0
 let AwayScore = 0
 
+console.log('Ready to Start')
 
 
 function homePlus1() {
