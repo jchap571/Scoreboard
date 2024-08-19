@@ -1,54 +1,58 @@
-let HomeScore = 0
-let AwayScore = 0
+let Home = 0
+let Away = 0
 
 console.log('Ready to Start')
 
 
 function homePlus1() {
-  HomeScore++
-  console.log(HomeScore);
+  Home++
+  console.log(Home);
+  console.log("Button Clicked!")
 
   const homeScoreElem = document.getElementById('home-score')
   console.log(homeScoreElem)
-  homeScoreElem.innerText = 'Home Score:' + HomeScore
+  homeScoreElem.innerText = 'Home Score:' + Home
 
 }
 
 function homePlus3() {
-  HomeScore += 3
-  console.log(HomeScore);
+  Home += 3
+  console.log(Home);
+  console.log("Button Clicked!")
 
   const homeScoreElem = document.getElementById('home-score')
   console.log(homeScoreElem)
-  homeScoreElem.innerText = 'Home Score: ' + HomeScore
+  homeScoreElem.innerText = 'Home Score: ' + Home
 }
 
 function awayPlus1() {
-  AwayScore++
-  console.log(AwayScore);
+  Away++
+  console.log(Away);
+  console.log("Button Clicked!")
 
   const awayScoreElem = document.getElementById('away-score')
   console.log(awayScoreElem)
-  awayScoreElem.innerText = 'Away Score: ' + AwayScore
+  awayScoreElem.innerText = 'Away Score: ' + Away
 
 }
 
 function awayPlus3() {
-  AwayScore += 3
-  console.log(AwayScore);
+  Away += 3
+  console.log(Away);
+  console.log("Button Clicked!")
 
   const awayScoreElem = document.getElementById('away-score')
   console.log(awayScoreElem)
-  awayScoreElem.innerText = 'Away Score: ' + AwayScore
+  awayScoreElem.innerText = 'Away Score: ' + Away
 
 }
 
 
 function resetScore() {
-  let HomeScore = 0
-  let AwayScore = 0
+  Home = 0
+  Away = 0
   const awayScoreElem = document.getElementById('away-score')
   const homeScoreElem = document.getElementById('home-score')
-  awayScoreElem.innerText = 'Away Score: ' + AwayScore
-  homeScoreElem.innerText = 'Home Score: ' + HomeScore
+  awayScoreElem.innerText = 'Away Score: ' + Away
+  homeScoreElem.innerText = 'Home Score: ' + Home
 }
